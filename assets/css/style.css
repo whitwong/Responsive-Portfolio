@@ -246,7 +246,8 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #cccccc;
+  background: #4aaaa5;
+  opacity: .6;
   border: 0 none;
 }
 input[type=submit]:hover {
@@ -254,7 +255,7 @@ input[type=submit]:hover {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #4aaaa5;
+  opacity: 1;
   border: 0 none;
 }
 
