@@ -288,6 +288,13 @@ input[type=submit]:hover {
   .work:nth-child(even) {
     margin-right: 40px;
   }
+.auth-image {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
   .sidebar {
     clear: both;
     float: left;
