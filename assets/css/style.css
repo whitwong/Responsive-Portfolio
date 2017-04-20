@@ -210,7 +210,6 @@ h3,
 }
 
 /* contact page */
-
 #contact-form ul {
   margin-bottom: 20px;
 }
@@ -257,6 +256,46 @@ input[type=submit]:hover {
   cursor: pointer;
   opacity: 1;
   border: 0 none;
+}
+
+/*CSS Animations*/
+h1, h2, h3, .icons, #logo, #contact-form, .aboutMe {
+  animation-name: appear;
+  animation-duration: 2s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0s;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.work {
+  animation-name: bounceIn;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  75% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /*Media Responsiveness*/
